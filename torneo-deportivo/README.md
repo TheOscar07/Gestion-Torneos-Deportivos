@@ -42,64 +42,64 @@ torneo-deportivo/ ├── datos/ │ ├── equipos.json # Datos de los equ
 
 2. Da permisos de ejecución al script:
    ```bash
-chmod +x scripts/initDatabase.sh
-```
+   chmod +x scripts/initDatabase.sh
+   ```
 3. Ejecuta el script:
    ```bash
-./scripts/initDatabase.sh
-```
+   ./scripts/initDatabase.sh
+   ```
 Esto importará los datos desde los archivos JSON ubicados en la carpeta datos/ a la base de datos torneo_deportivo.
 
 ### **Opción 2: Usar el Script en Node.js
 #### **Pasos:**
 1. Instala las dependencias necesarias:
    ```bash
-npm install mongodb
-```
+   npm install mongodb
+   ```
 2. Ejecuta el script:
    ```bash
-node scripts/insertCollections.js
-```
+   node scripts/insertCollections.js
+   ```
 Esto cargará los datos directamente desde objetos definidos en el código.
 
 ## **Verificar los Datos en MongoDB
 ### **Desde el Shell de MongoDB:
 1. Inicia sesión en el shell:
-```bash
-mongo
-```
+   ```bash
+   mongo
+   ```
 2. Cambia al contexto de la base de datos:
-```javascript
-use torneo_deportivo
-```
+   ```javascript
+   use torneo_deportivo
+   ```
 3. Consulta las colecciones:
-```javascript
-db.equipos.find().pretty()
-db.jugadores.find().pretty()
-db.arbitros.find().pretty()
-db.encuentros.find().pretty()
-db.resultados.find().pretty()
-```
+   ```javascript
+   db.equipos.find().pretty()
+   db.jugadores.find().pretty()
+   db.arbitros.find().pretty()
+   db.encuentros.find().pretty()
+   db.resultados.find().pretty()
+   ```
 
 
 ## **Descripción de las Colecciones
-equipos: Información de los equipos, incluyendo entrenador y jugadores.
-jugadores: Detalles de los jugadores como posición y estadísticas.
-arbitros: Registro de árbitros con experiencia y calificaciones.
-encuentros: Programación de partidos con equipos y árbitros asignados.
-resultados: Detalles y resultados finales de los encuentros.
+   equipos: Información de los equipos, incluyendo entrenador y jugadores.
+   jugadores: Detalles de los jugadores como posición y estadísticas.
+   arbitros: Registro de árbitros con experiencia y calificaciones.
+   encuentros: Programación de partidos con equipos y árbitros asignados.
+   resultados: Detalles y resultados finales de los encuentros.
 
 ## **Notas Adicionales
-Este proyecto es un ejemplo inicial y puede adaptarse según las necesidades.
-Si usas un servidor remoto de MongoDB (como MongoDB Atlas), actualiza las configuraciones en los scripts para conectarte al clúster.
-Asegúrate de que el puerto 27017 (puerto por defecto de MongoDB) esté accesible.
+   Este proyecto es un ejemplo inicial y puede adaptarse según las necesidades.
+   Si usas un servidor remoto de MongoDB (como MongoDB Atlas), actualiza las configuraciones en los scripts para conectarte al clúster.
+   Asegúrate de que el puerto 27017 (puerto por defecto de MongoDB) esté accesible.
 
 ## **Contribuciones
-Si encuentras algún error o deseas proponer mejoras, abre un issue o envía un pull request en este repositorio.
+   Si encuentras algún error o deseas proponer mejoras, abre un issue o envía un pull request en este repositorio.
 
 ---
 
 ### **Aclaraciones:**
-1. Ahora la **estructura del proyecto** está explícitamente dentro del `README.md`.
-2. La descripción de las carpetas y archivos también incluye un breve comentario para cada uno.
+   1. Ahora la **estructura del proyecto** está explícitamente dentro del `README.md`.
+   2. La descripción de las carpetas y archivos también incluye un breve comentario para cada uno.
 
