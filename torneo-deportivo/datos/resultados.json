@@ -1,0 +1,28 @@
+[{
+  "_id": "R001",
+  "id_encuentro": "M001",
+  "marcador": {
+    "equipo_local": 2,
+    "equipo_visitante": 1
+  },
+  "detalles": {
+    "goleadores": [
+      {
+        "jugador_id": "J001",
+        "minuto": 34
+      },
+      {
+        "jugador_id": "J003",
+        "minuto": 76
+      }
+    ],
+    "tarjetas": [
+      {
+        "jugador_id": "J002",
+        "tipo": "amarilla",
+        "minuto": 50
+      }
+    ]
+  },
+  "estado_final": "victoria_local"
+}]

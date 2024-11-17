@@ -1,0 +1,14 @@
+[{
+  "_id": "A001",
+  "nombre": "Roberto López",
+  "experiencia": 5,
+  "partidos_arbitrados": [],
+  "calificación": 4.8
+},
+{
+  "_id": "A002",
+  "nombre": "Luis Méndez",
+  "experiencia": 3,
+  "partidos_arbitrados": [],
+  "calificación": 4.5
+}]

@@ -1,0 +1,18 @@
+[{
+  "_id": "M001",
+  "fecha": "2024-11-20",
+  "hora": "16:00",
+  "equipo_local": {
+    "id_equipo": "E001",
+    "nombre": "Tigres FC"
+  },
+  "equipo_visitante": {
+    "id_equipo": "E002",
+    "nombre": "Águilas FC"
+  },
+  "árbitros": [
+    "A001",
+    "A002"
+  ],
+  "estado": "programado"
+}]

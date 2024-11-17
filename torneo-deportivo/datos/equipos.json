@@ -1,0 +1,40 @@
+[{
+  "_id": "E001",
+  "nombre": "Tigres FC",
+  "entrenador": {
+    "id_entrenador": "EN001",
+    "nombre": "Carlos Pérez",
+    "contacto": "carlos.perez@email.com"
+  },
+  "jugadores": [
+    {
+      "id_jugador": "J001",
+      "nombre": "Luis Gómez"
+    },
+    {
+      "id_jugador": "J002",
+      "nombre": "Pedro Martínez"
+    }
+  ],
+  "fundado": 2010
+},
+{
+  "_id": "E002",
+  "nombre": "Águilas FC",
+  "entrenador": {
+    "id_entrenador": "EN002",
+    "nombre": "Juan García",
+    "contacto": "juan.garcia@email.com"
+  },
+  "jugadores": [
+    {
+      "id_jugador": "J003",
+      "nombre": "Carlos Rodríguez"
+    },
+    {
+      "id_jugador": "J004",
+      "nombre": "Javier Hernández"
+    }
+  ],
+  "fundado": 2012
+}]

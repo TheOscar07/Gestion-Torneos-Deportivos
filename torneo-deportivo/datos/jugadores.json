@@ -1,0 +1,24 @@
+[{
+  "_id": "J001",
+  "nombre": "Luis Gómez",
+  "edad": 25,
+  "posición": "Delantero",
+  "equipo_id": "E001",
+  "estadísticas": {
+    "goles": 10,
+    "tarjetas_amarillas": 1,
+    "tarjetas_rojas": 0
+  }
+},
+{
+  "_id": "J003",
+  "nombre": "Carlos Rodríguez",
+  "edad": 27,
+  "posición": "Portero",
+  "equipo_id": "E002",
+  "estadísticas": {
+    "goles": 0,
+    "tarjetas_amarillas": 0,
+    "tarjetas_rojas": 0
+  }
+}]
