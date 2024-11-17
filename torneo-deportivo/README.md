@@ -38,15 +38,16 @@ torneo-deportivo/ ├── datos/ │ ├── equipos.json # Datos de los equ
 1. Navega al directorio del proyecto:
    ```bash
    cd torneo-deportivo
+   ```
 
 2. Da permisos de ejecución al script:
    ```bash
 chmod +x scripts/initDatabase.sh
-
+```
 3. Ejecuta el script:
    ```bash
 ./scripts/initDatabase.sh
-
+```
 Esto importará los datos desde los archivos JSON ubicados en la carpeta datos/ a la base de datos torneo_deportivo.
 
 ### **Opción 2: Usar el Script en Node.js
@@ -54,11 +55,11 @@ Esto importará los datos desde los archivos JSON ubicados en la carpeta datos/ 
 1. Instala las dependencias necesarias:
    ```bash
 npm install mongodb
-
+```
 2. Ejecuta el script:
    ```bash
 node scripts/insertCollections.js
-
+```
 Esto cargará los datos directamente desde objetos definidos en el código.
 
 ## **Verificar los Datos en MongoDB
@@ -66,10 +67,11 @@ Esto cargará los datos directamente desde objetos definidos en el código.
 1. Inicia sesión en el shell:
 ```bash
 mongo
+```
 2. Cambia al contexto de la base de datos:
 ```javascript
 use torneo_deportivo
-
+```
 3. Consulta las colecciones:
 ```javascript
 db.equipos.find().pretty()
@@ -77,7 +79,7 @@ db.jugadores.find().pretty()
 db.arbitros.find().pretty()
 db.encuentros.find().pretty()
 db.resultados.find().pretty()
-
+```
 
 
 ## **Descripción de las Colecciones
